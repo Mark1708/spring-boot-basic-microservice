@@ -11,6 +11,7 @@ It consists of two microservices:
 ![Microservices](https://github.com/Mark1708/spring-boot-basic-microservice/blob/main/assets/microservices.png?raw=true)
 
 It uses tape to distribute the load between multiple instances of the Forex service, and Eureka as the name server. If you launch new instances of the Forex service, you can see that the load is automatically distributed between them.
+<br/>
 ![Deployment](https://github.com/Mark1708/spring-boot-basic-microservice/blob/main/assets/deployment.png?raw=true)
 ![Eureka](https://github.com/Mark1708/spring-boot-basic-microservice/blob/main/assets/eureka.png?raw=true)
 <br/>
